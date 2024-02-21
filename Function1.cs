@@ -20,7 +20,7 @@ namespace AzureFunctionApp1
             log.LogInformation("C# HTTP trigger function processed a request.");
 
             string n1 = req.Query["n1"];
-            string n2 = req.Query["n2"];    // New comment
+            string n2 = req.Query["n2"];    // New comment22
 
             string requestBody = await new StreamReader(req.Body).ReadToEndAsync();
             dynamic data = JsonConvert.DeserializeObject(requestBody);
