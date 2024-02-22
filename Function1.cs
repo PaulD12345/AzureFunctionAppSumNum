@@ -28,7 +28,7 @@ namespace AzureFunctionApp1
             int num1 = Convert.ToInt32(n1);
             int num2 = Convert.ToInt32(n2);
 
-            int rval = (num1 + num2) * 2;
+            int rval = num1 + num2;
 
             //string responseMessage = string.IsNullOrEmpty(name)
             //    ? "This HTTP triggered function executed successfully. Pass a name in the query string or in the request body for a personalized response."
